@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/maincolor">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/apptitle"
+        app:srcCompat="@drawable/ppforbioapp" />
+
+    <TextView
+        android:id="@+id/apptitle"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/bioappfont1"
+        android:gravity="center"
+        android:text="BIO APP"
+        android:textColor="@color/title"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/mybiobtn"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/buttoncolor"
+        android:fontFamily="@font/bioappfont2"
+        android:text="My Bio"
+        android:textColor="@color/title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/mygallerybtn"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/buttoncolor"
+        android:fontFamily="@font/bioappfont2"
+        android:textColor="@color/title"
+        android:text="My Gallery"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mybiobtn" />
+
+    <Button
+        android:id="@+id/myskillsbtn"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/buttoncolor"
+        android:fontFamily="@font/bioappfont2"
+        android:text="My Skills"
+        android:textColor="@color/title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mygallerybtn" />
+
+    <Button
+        android:id="@+id/mylinkedinbtn"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/buttoncolor"
+        android:fontFamily="@font/bioappfont2"
+        android:textColor="@color/title"
+        android:text="My LinkedIn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myskillsbtn" />
+
+    <Button
+        android:id="@+id/mygithubbtn"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/buttoncolor"
+        android:fontFamily="@font/bioappfont2"
+        android:textColor="@color/title"
+        android:text="My Github"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mylinkedinbtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

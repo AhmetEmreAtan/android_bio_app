@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ODV3</string>
+    <string name="anasayfa">Anasayfa</string>
+    <string name="hakk_nda">Hakkında</string>
+    <string name="galeri">Galeri</string>
+    <string name="iletisim">İletişim</string>
+    <string name="blog">Blog</string>
+</resources>
